@@ -1,0 +1,23 @@
+{
+  "name": "ui-practice",
+  "description": "오늘의집 클론코딩을 통한 UI 개발 연습",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch styles/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanstory-dev/ui-practice.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanstory-dev/ui-practice/issues"
+  },
+  "homepage": "https://github.com/seanstory-dev/ui-practice#readme"
+}
