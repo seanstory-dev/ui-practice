@@ -24,6 +24,8 @@
 
 > 💡 Tip! 피그마에서 이미지를 Export하기 전에 `cmd + R` 단축키를 사용하여 이미지 파일명을 일괄적으로 수정하도록 하자.
 
+- svg 코드는 더럽고 감당이 되지 않을 정도로 길기 때문에 아이콘 폰트로 컨버팅해서 사용한다.
+
 ## 참고 링크
 
 ### SCSS
@@ -33,3 +35,4 @@
 ### 기타
 
 - [HTML EntityCode](https://dev.w3.org/html5/html-author/charref)
+- [Convert svg to i](https://icomoon.io/app/#/select)
