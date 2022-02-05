@@ -36,3 +36,4 @@
 
 - [HTML EntityCode](https://dev.w3.org/html5/html-author/charref)
 - [Convert svg to i](https://icomoon.io/app/#/select)
+- [Favicon Generator](https://realfavicongenerator.net/)
