@@ -41,6 +41,10 @@
   &:hover {
     background-color: $tertiary;
   }
+
+  &:disabled:hover {
+    background-color: $border;
+  }
 }
 
 .btn-outlined {
@@ -54,6 +58,10 @@
   &:hover {
     background-color: $blue-light;
   }
+
+  &:disabled:hover {
+    background-color: $white;
+  }
 }
 
 .btn-ghost {
@@ -65,6 +73,10 @@
   // btn-state
   &:hover {
     color: $secondary;
+  }
+
+  &:disabled:hover {
+    color: $primary;
   }
 }
 

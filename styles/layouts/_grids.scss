@@ -24,6 +24,7 @@
  * max-container-size .... 1140px
  *
 */
+@use 'sass:math';
 
 $gutter: 20px;
 
@@ -49,12 +50,12 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
   }
 
   [class^='col-'] {
-    padding: 0 $gutter / 2;
+    padding: 0 (math.div($gutter, 2));
   }
 
   @for $i from 1 through $sm-columns {
     .col-sm-#{$i} {
-      width: percentage($i / $sm-columns);
+      width: percentage(math.div($i, $md-columns));
     }
   }
 
@@ -64,7 +65,7 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
 
     @for $i from 1 through $md-columns {
       .col-md-#{$i} {
-        width: percentage($i / $md-columns);
+        width: percentage(math.div($i, $md-columns));
       }
     }
   }

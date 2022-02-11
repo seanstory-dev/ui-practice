@@ -475,6 +475,96 @@ ol {
   padding-left: 0;
 }
 
+.btn-ghost, .btn-outlined, .btn-secondary, .btn-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.btn-ghost:disabled, .btn-outlined:disabled, .btn-secondary:disabled, .btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3da5f5;
+  transition: background-color 200ms ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #3186c4;
+}
+.btn-primary:disabled:hover {
+  background-color: #3da5f5;
+}
+
+.btn-secondary {
+  color: #3f4150;
+  background-color: #e0e2e7;
+  transition: background-color 200ms ease-in-out;
+}
+.btn-secondary:hover {
+  background-color: #b2b3b9;
+}
+.btn-secondary:disabled:hover {
+  background-color: #e0e2e7;
+}
+
+.btn-outlined {
+  color: #3da5f5;
+  background-color: #fff;
+  border: 1px solid #3da5f5;
+  transition: background-color 200ms ease-in-out;
+}
+.btn-outlined:hover {
+  background-color: #ecf6fe;
+}
+.btn-outlined:disabled:hover {
+  background-color: #fff;
+}
+
+.btn-ghost {
+  color: #3f4150;
+  background-color: transparent;
+  transition: color 200ms ease-in-out;
+}
+.btn-ghost:hover {
+  color: #8c8d96;
+}
+.btn-ghost:disabled:hover {
+  color: #3f4150;
+}
+
+.btn-32 {
+  height: 32px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.btn-40 {
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.btn-48 {
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.btn-55 {
+  height: 55px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
 /*
  * Mobile (<768px)-----------------
  * fixture ............... sm
@@ -514,16 +604,16 @@ ol {
   padding: 0 10px;
 }
 .container .col-sm-1 {
-  width: 25%;
+  width: 8.3333333333%;
 }
 .container .col-sm-2 {
-  width: 50%;
+  width: 16.6666666667%;
 }
 .container .col-sm-3 {
-  width: 75%;
+  width: 25%;
 }
 .container .col-sm-4 {
-  width: 100%;
+  width: 33.3333333333%;
 }
 @media screen and (min-width: 768px) {
   .container {
