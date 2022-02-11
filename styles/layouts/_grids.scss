@@ -47,7 +47,7 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
 
   .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; // 자식 기둥의 너비를 고정시키기 위함
   }
 
   [class^='col-'] {
